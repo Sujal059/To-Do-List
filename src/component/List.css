@@ -1,0 +1,92 @@
+.list{
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-image: url("./bgimg.jpeg");
+    background-size: cover;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: x-large;
+}
+
+.form{
+    position: relative;
+    top: 140px;
+    width: 406px;
+    height: fit-content;
+}
+
+.form h1{
+    margin: 0;
+}
+
+.inputs{
+    display: inline;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+}
+
+.inputs input{
+    width: auto;
+    height: 1.5rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+button{
+    position: relative;
+    top: 5px;
+    right: 5px;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    height: 1.5rem;
+    width: auto;
+}
+
+button img{
+    height: 1.6rem;
+}
+
+button img:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+ 
+.listItems{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.listItems ul{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 350px;
+    overflow: auto;
+}
+
+.listItems ul li{
+    width: fit-content;
+    margin: 10px;
+    margin-right: 70px;
+}
+
+.listItems ul li:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.listItems ul li img{
+    position: relative;
+    top: 7px;
+    left: 10px;
+    height: 1.5rem;
+}
